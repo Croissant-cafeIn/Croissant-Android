@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hot">
+        <item>에스프레소</item>
+        <item>라떼</item>
+        <item>Tea</item>
+    </string-array>
+</resources>

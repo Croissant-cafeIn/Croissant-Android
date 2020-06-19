@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="degreesChoose">
+        <item>Ice</item>
+        <item>Hot</item>
+    </string-array>
+</resources>

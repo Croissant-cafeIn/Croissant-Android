@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:text="ID  "
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/cafe24_decobox"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:textSize="17sp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_edittext"
+            android:padding="5dp"
+            android:fontFamily="@font/cafe_dangdang"
+            android:hint="이메일 주소 입력" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:text="PW  "
+            android:fontFamily="@font/cafe24_decobox"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/cafe_dangdang"
+            android:hint="비밀번호 입력" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/payButton"
+        android:fontFamily="@font/cafe_dangdang"
+        android:text="로그인"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

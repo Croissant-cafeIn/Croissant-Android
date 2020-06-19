@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ice">
+        <item>에스프레소</item>
+        <item>라떼</item>
+        <item>에이드</item>
+        <item>스무디</item>
+        <item>Tea</item>
+        <item>병음료</item>
+    </string-array>
+</resources>

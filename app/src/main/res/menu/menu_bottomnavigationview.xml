@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/order"
+        android:id="@+id/order_check"
+        android:enabled="true"
+        android:title="주문 현황"/>
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        android:enabled="true"
+        android:id="@+id/stores"
+        android:title="나의 가게"/>
+
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/notification"
+        android:enabled="true"
+        android:id="@+id/alarm"
+        android:title="완료 알람"/>
+</menu>
